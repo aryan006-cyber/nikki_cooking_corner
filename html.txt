@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikki's Cooking Corner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="Nikki's Cooking Corner Logo" class="logo">
+    <h1>Nikki's Cooking Corner</h1>
+    <p>Delicious Recipes Made Simple</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#recipes">Recipes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Recipes Section -->
+    <section id="recipes">
+      <h2>Featured Recipes</h2>
+
+      <div class="recipe-card">
+        <img src="https://source.unsplash.com/800x400/?pasta" alt="Pasta">
+        <h3>Classic Italian Pasta</h3>
+        <p>A quick and easy homemade pasta recipe with rich tomato sauce and fresh herbs.</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://source.unsplash.com/800x400/?cake" alt="Cake">
+        <h3>Chocolate Fudge Cake</h3>
+        <p>Moist and rich chocolate cake topped with creamy fudge icing. Perfect for dessert lovers!</p>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://source.unsplash.com/800x400/?cookies" alt="Cookies">
+        <h3>Homemade Cookies</h3>
+        <p>Soft, chewy cookies baked to perfection with chocolate chips and love.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Nikki</h2>
+      <p>Hi, I’m Nikki! Cooking has always been my passion, and I started this website to share my love for food with the world. From simple home meals to delightful desserts, I aim to bring joy to your kitchen.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>Got a recipe suggestion or feedback? Reach out!</p>
+      <form action="https://formspree.io/f/mnzydby" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p>Email: <a href="mailto:devismita918@gmail.com">devismita918@gmail.com</a></p>
+      <p>Phone: 9554742167</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nikki's Cooking Corner | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
